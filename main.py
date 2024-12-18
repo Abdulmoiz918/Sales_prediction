@@ -18,7 +18,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 # Import Data
 # Assuming the dataset is saved as "big_sales_data.csv"
-data = pd.read_csv("big_sales_data.csv")
+data = pd.read_csv(r'https://raw.githubusercontent.com/YBI-Foundation/Dataset/main/B1g%20Sales%20Data.csv')
 
 # Describe Data
 print("Data Overview:")
